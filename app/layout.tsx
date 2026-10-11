@@ -46,7 +46,7 @@ export default function RootLayout({
         >
           <header className="border-b">
             <div className="container mx-auto flex items-center justify-between p-4">
-              <h1 className="text-xl font-bold">Link Shortener</h1>
+              <span className="text-xl font-bold">Link Shortener</span>
               <div className="flex items-center gap-4">
                 <SignedOut>
                   <SignInButton mode="modal">
